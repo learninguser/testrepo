@@ -1,5 +1,9 @@
 name: run helloworld.py
 
+on:
+  push:
+    branches: [ "master" ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
